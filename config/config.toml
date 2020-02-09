@@ -1,0 +1,15 @@
+[iris]
+DisablePathCorrection = false
+EnablePathEscape = false
+FireMethodNotAllowed = true
+DisableBodyConsumptionOnUnmarshal = false
+TimeFormat = "Mon, 01 Jan 2006 15:04:05 GMT"
+Charset = "UTF-8"
+
+[jwt]
+timeout = 259200000
+secret = "password"
+
+[mongo]
+uri = "mongodb://localhost:27017"
+database = "X_mongo"
